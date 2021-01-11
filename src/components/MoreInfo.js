@@ -17,19 +17,23 @@ class MoreInfo extends Component{
             anchorClass='my-anchor-css-class'
             onClick={this.executeOnClick}
             expanded={false}
-            width={280}
+            width={20}
         >
-            <a href="https://www.google.bg/" title="Google" rel="nofollow" target="_blank" rel="noopener noreferrer">www.google.bg</a> ut labore et dolore magna amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore
-
-            et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            <div className='flex'>
+                <h4 className='mt3'>State of Origin:</h4>
+                <p className='ml2'>Kano State</p>
+            </div>
+            <div className=''>
+                <h4 className='mt3'>Address:</h4>
+                <p className=''>Federal Secretariat Towers, Shehu Shagari Way
+                    Central Area, P.M.B. 192, Garki
+                    Abuja Nigeria.
+                </p>
+            </div>
+            <div className='flex'>
+                <h4 className='mt3'>Website:</h4>
+                <a className='ml2 mt3' href='www.justice.gov.ng'>www.justice.gov.ng</a>
+            </div>
         </ShowMoreText>
         )
     }

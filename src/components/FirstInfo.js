@@ -8,15 +8,14 @@ const FirstInfo = () => {
                 <h2>Ministry of Justice</h2>
             </div>
             <div>
-                <p>Minister: Malam Abubakar Malami</p>
-                <p>Minister of State: Malam Abubakar Malami</p>
-                <p>Address: </p>
-                <p>
-                Federal Secretariat Towers, Shehu Shagari Way
-                Central Area, P.M.B. 192, Garki
-                Abuja Nigeria.
-                </p>
-                <p>Website: <a href='www.justice.gov.ng'>www.justice.gov.ng</a></p>
+                <div className='flex'>
+                    <h4 className='mt3'>Minister: </h4>
+                    <p className='ml2'>Malam Abubakar Malami</p>
+                </div>
+                <div className='flex'>
+                    <h4 className='mt3'>Minister of State:</h4>
+                    <p className='ml2'>Dr James Ibori</p>
+                </div>
             </div>
         </div>
     )
