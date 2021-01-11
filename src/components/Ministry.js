@@ -1,13 +1,18 @@
 import './Ministry.css';
-import FirstInfo from './FirstInfo';
-import MoreInfo from './MoreInfo';
+import FullInfo from './FullInfo';
+import minList from './minList';
 
 const ministry = () => {
     return (
-        <div className='ministry'>
-            <FirstInfo />
-            <MoreInfo />
-            <hr />
+        <div>
+            <FullInfo />
+            <FullInfo />
+            <FullInfo />
+            <FullInfo />
+            <FullInfo />
+            <FullInfo />
+            <FullInfo />
+            <FullInfo />
         </div>
     )
 }
