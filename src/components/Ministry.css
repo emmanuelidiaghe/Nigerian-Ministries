@@ -1,0 +1,24 @@
+.ministry {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo {
+    max-width: 15%;
+}
+
+.minHead {
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+}
+
+.minHead h2 {
+    margin-left: 10px;
+}
+
+hr {
+    margin-left: 0%;
+    max-width: 60%;
+    border-top: 3px solid #8c8b8b;
+}
