@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Nigerian-Ministries/static/css/main.18087963.chunk.css",
-    "main.js": "/Nigerian-Ministries/static/js/main.aba7a17e.chunk.js",
-    "main.js.map": "/Nigerian-Ministries/static/js/main.aba7a17e.chunk.js.map",
+    "main.js": "/Nigerian-Ministries/static/js/main.cbcc4781.chunk.js",
+    "main.js.map": "/Nigerian-Ministries/static/js/main.cbcc4781.chunk.js.map",
     "runtime-main.js": "/Nigerian-Ministries/static/js/runtime-main.274b1074.js",
     "runtime-main.js.map": "/Nigerian-Ministries/static/js/runtime-main.274b1074.js.map",
     "static/css/2.31461e4f.chunk.css": "/Nigerian-Ministries/static/css/2.31461e4f.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.0099c784.chunk.js",
     "static/css/main.18087963.chunk.css",
-    "static/js/main.aba7a17e.chunk.js"
+    "static/js/main.cbcc4781.chunk.js"
   ]
 }
