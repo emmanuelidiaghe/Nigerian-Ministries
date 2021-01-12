@@ -18,6 +18,9 @@ class ministry extends Component{
                         name={min.name}
                         minister={min.minister}
                         minister_state={min.minister_state}
+                        origin={min.origin}
+                        address={min.address}
+                        website={min.website}
                    /> 
                 ))}
             </div>

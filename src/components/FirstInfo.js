@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './FirstInfo.css';
 import logo from '../images/logo.png';
 
 class FirstInfo extends Component{
   
     render() {
         return(
-            <div>
+            <div className='first'>
                 <div className='minHead'>
                     <img src={logo} className='logo' alt='logo'></img>
                     <h2>{this.props.name}</h2>

@@ -1,6 +1,8 @@
 .ministry {
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px;
+    background-color: #e1f5e1;
 }
 
 .logo {
