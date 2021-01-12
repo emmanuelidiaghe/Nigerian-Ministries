@@ -1,24 +1,28 @@
+import React, { Component } from 'react';
 import logo from '../images/logo.png';
 
-const FirstInfo = () => {
-    return (
-        <div>
-            <div className='minHead'>
-                <img src={logo} className='logo' alt='logo'></img>
-                <h2>Ministry of Justice</h2>
-            </div>
+class FirstInfo extends Component{
+  
+    render() {
+        return(
             <div>
-                <div className='flex'>
-                    <h4 className='mt3'>Minister: </h4>
-                    <p className='ml2'>Malam Abubakar Malami</p>
+                <div className='minHead'>
+                    <img src={logo} className='logo' alt='logo'></img>
+                    <h2>{this.props.name}</h2>
                 </div>
-                <div className='flex'>
-                    <h4 className='mt3'>Minister of State:</h4>
-                    <p className='ml2'>Dr James Ibori</p>
+                <div>
+                    <div className='flex'>
+                        <h4 className='mt3'>Minister: </h4>
+                        <p className='ml2'>{this.props.minister}</p>
+                    </div>
+                    <div className='flex'>
+                        <h4 className='mt3'>Minister of State:</h4>
+                        <p className='ml2'>{this.props.minister_state}</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    )
-}
-
-export default FirstInfo;
+        )
+    }
+  }
+  
+  export default FirstInfo;
