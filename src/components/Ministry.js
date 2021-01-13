@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Ministry.css';
 import FullInfo from './FullInfo';
 import minList from './minList';
 

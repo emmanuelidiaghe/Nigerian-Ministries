@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FirstInfo from './FirstInfo';
 import MoreInfo from './MoreInfo';
+import './FullInfo.css';
 
 class FullInfo extends Component{
     constructor(props) {
