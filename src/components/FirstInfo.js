@@ -7,7 +7,7 @@ class FirstInfo extends Component{
     render() {
         return(
             <div className='first'>
-                <div className='minHead'>
+                <div className='minHead '>
                     <img src={logo} className='logo' alt='logo'></img>
                     <h2>{this.props.name}</h2>
                 </div>

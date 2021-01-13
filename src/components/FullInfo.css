@@ -5,21 +5,6 @@
     background-color: #e1f5e1;
 }
 
-.logo {
-    max-width: 15%;
-    max-height: 60px;
-}
-
-.minHead {
-    display: flex;
-    flex-direction: row;
-    max-width: 500px;
-}
-
-.minHead h2 {
-    margin-left: 10px;
-}
-
 hr {
     margin-left: 0%;
     max-width: 60%;
