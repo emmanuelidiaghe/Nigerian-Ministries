@@ -15,10 +15,6 @@ class MoreInfo extends Component{
                 expanded={false}
                 width={20}
             >
-                <div className='flex'>
-                    <h4 className='mt3'>State of Origin:</h4>
-                    <p className='ml2'>{this.props.origin}</p>
-                </div>
                 <div className=''>
                     <h4 className='mt3'>Address:</h4>
                     <p className=''>{this.props.address}</p>

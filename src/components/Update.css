@@ -1,0 +1,17 @@
+.update {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #e1f5e1;
+}
+
+.update2 {
+    margin: 10px;
+}
+
+.update2 input {
+    background-color: #e1f5e1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
