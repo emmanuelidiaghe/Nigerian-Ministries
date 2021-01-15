@@ -7,14 +7,14 @@ class ministry extends Component{
     constructor(props) {
         super(props);
         this.state = { minList }
-        this.handler = this.handler.bind(this)
+        //this.handler = this.handler.bind(this)
     }
     
-    handler = () => {
-        this.setState[selectedMin]({
+    // handler = () => {
+    //     this.setState[selectedMin]({
             
-        })
-    }
+    //     })
+    // }
 
     render() {
         return (
@@ -33,7 +33,7 @@ class ministry extends Component{
                 ))}
                 <Update
                     min={this.state.minList}
-                    handler={this.handler}
+                    //handler={this.handler}
                 />
             </div>
         );
