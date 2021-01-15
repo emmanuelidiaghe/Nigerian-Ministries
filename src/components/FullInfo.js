@@ -6,7 +6,6 @@ import './FullInfo.css';
 class FullInfo extends Component{
     constructor(props) {
         super(props);
-        this.state = props;
     }
   
     render() {
@@ -15,12 +14,13 @@ class FullInfo extends Component{
                 <FirstInfo
                     key={this.props.index}
                     name={this.props.name}
+                    origin={this.props.origin}
                     minister={this.props.minister}
+                    origin_state={this.props.origin_state}
                     minister_state={this.props.minister_state}
                 />
                 <MoreInfo 
                     key={this.props.index}
-                    origin={this.props.origin}
                     address={this.props.address}
                     website={this.props.website}
                 />
