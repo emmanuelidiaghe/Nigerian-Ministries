@@ -7,14 +7,24 @@ class ministry extends Component{
     constructor(props) {
         super(props);
         this.state = { minList }
-        //this.handler = this.handler.bind(this)
+        this.handleToUpdate  = this.handleToUpdate.bind(this);
     }
     
-    // handler = () => {
-    //     this.setState[selectedMin]({
-            
-    //     })
-    // }
+    handleToUpdate(selectedMin, selectedMinister1, selectedOrigin1, selectedMinister2, selectedOrigin2, selectedAdd, selectedWeb){
+        this.setState(state => {
+            const list = state.minList.filter(mini => mini.id == selectedMin)
+            list[0].address = selectedAdd;
+            list[0].website = selectedWeb;
+            list[0].origin = selectedOrigin1;
+            list[0].minister = selectedMinister1;
+            list[0].origin_state = selectedOrigin2;
+            list[0].minister_state = selectedMinister2;
+
+            alert('UPDATED!');
+            console.log(list);
+        })
+    }
+    
 
     render() {
         return (
@@ -33,7 +43,7 @@ class ministry extends Component{
                 ))}
                 <Update
                     min={this.state.minList}
-                    //handler={this.handler}
+                    handleToUpdate = {this.handleToUpdate.bind(this)}
                 />
             </div>
         );

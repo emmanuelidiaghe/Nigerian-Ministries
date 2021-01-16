@@ -22,15 +22,10 @@ class update extends Component{
         };
     }
     
-    upload = () => {
-        //this.setState(this.props.min[0])
-        alert("File Updated!");
-        //console.log(this.state.selectedMin);
-    }
-    
     render() {
+        var handleToUpdate  =   this.props.handleToUpdate;
+
         return (
-            
             <div className='update '>
                 <div className='update2'>
                     <h2 className='pt3'>Update List here:</h2>
@@ -164,7 +159,15 @@ class update extends Component{
                     </label><br />
                     <button
                         className='h2 white bg-green br-pill'
-                        onClick={this.upload}
+                        onClick={() => handleToUpdate(
+                            this.state.selectedMin,
+                            this.state.selectedMinister1,
+                            this.state.selectedOrigin1,
+                            this.state.selectedMinister2,
+                            this.state.selectedOrigin2,
+                            this.state.selectedAdd,
+                            this.state.selectedWeb
+                            )}
                     >UPDATE
                     </button><hr />
                 </div>
