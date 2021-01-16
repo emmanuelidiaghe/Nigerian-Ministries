@@ -3,7 +3,7 @@
 //www.nigeriaembassyusa.org/index.php?page=federal-ministries
 const minList = [
     {
-      id: 1,
+      id: 0,
       name: 'Federal Ministry of Agriculture & Natural Resources',
       minister: 'Sabo Nanno',
       minister_state: 'Mustapha Shehuri',
@@ -13,7 +13,7 @@ const minList = [
       website: 'www.fmard.gov.ng'
     },
     {
-      id: 2,
+      id: 1,
       name: 'Federal Ministry of Aviation',
       minister: 'Hadi Sirika',
       minister_state: 'N/A',
@@ -23,7 +23,7 @@ const minList = [
       website: 'www.aviation.gov.ng'
     },
     {
-      id: 3,
+      id: 2,
       name: 'Federal Ministry of Commerce & Tourism',
       minister: 'Malam Abubakar Malami',
       minister_state: 'N/A',
@@ -33,7 +33,7 @@ const minList = [
       website: 'www.commerce.gov.ng'
     },
     {
-      id: 4,
+      id: 3,
       name: 'Federal Ministry of Communication',
       minister: 'Ali Isa Pantami',
       minister_state: 'N/A',
@@ -43,7 +43,7 @@ const minList = [
       website: 'www.commtech.gov.ng'
     },
     {
-      id: 5,
+      id: 4,
       name: 'Federal Ministry of Defence',
       minister: 'Bashir Salihi Magashi',
       minister_state: 'N/A',
@@ -53,7 +53,7 @@ const minList = [
       website: 'www.defence.gov.ng'
     },
     {
-      id: 6,
+      id: 5,
       name: 'Federal Ministry of Education & Youth Dev.',
       minister: 'Adamu Adamu',
       minister_state: 'Emeka Nwajiuba',
@@ -63,7 +63,7 @@ const minList = [
       website: 'www.education.gov.ng'
     },
     {
-      id: 7,
+      id: 6,
       name: 'Federal Ministry of Environment',
       minister: 'Muhammad Mahmood',
       minister_state: 'Sharon Ikeazor',
@@ -73,7 +73,7 @@ const minList = [
       website: 'www.environment.gov.ng'
     },
     {
-      id: 8,
+      id: 7,
       name: 'Federal Ministry for Federal Capital Territory',
       minister: 'Mohammed Musa Bello',
       minister_state: 'Ramatu Tijani',
@@ -83,7 +83,7 @@ const minList = [
       website: 'www.fcda.gov.ng'
     },
     {
-      id: 9,
+      id: 8,
       name: 'Federal Ministry of Finance & Economic Development',
       minister: 'Zainab Ahmed',
       minister_state: 'Clement Agba',
@@ -93,7 +93,7 @@ const minList = [
       website: 'www.finance.gov.ng'
     },
     {
-      id: 10,
+      id: 9,
       name: 'Ministry of Foreign Affairs',
       minister: 'Geoffrey Onyeama',
       minister_state: 'Zubair Dada',
@@ -103,7 +103,7 @@ const minList = [
       website: 'www.foreignaffairs.gov.ng'
     },
     {
-      id: 11,
+      id: 10,
       name: 'Federal Ministry of Health & Social Services',
       minister: 'Osagie Ehanire',
       minister_state: 'Adeleke Mamora',
@@ -113,7 +113,7 @@ const minList = [
       website: 'www.health.gov.ng'
     },
     {
-      id: 12,
+      id: 11,
       name: 'Federal Ministry of Industries',
       minister: 'Richard Adeniyi Adebayo',
       minister_state: 'Amb MAryam Katagum',
@@ -123,7 +123,7 @@ const minList = [
       website: 'www.fmiti.gov.ng'
     },
     {
-      id: 13,
+      id: 12,
       name: 'Federal Ministry of Information & Culture',
       minister: 'Lai Mohammed',
       minister_state: 'N/A',
@@ -133,7 +133,7 @@ const minList = [
       website: 'www.fmic.gov.ng'
     },
     {
-      id: 14,
+      id: 13,
       name: 'Federal Ministry of Interior',
       minister: 'Rauf Aregbesola',
       minister_state: 'N/A',
@@ -143,7 +143,7 @@ const minList = [
       website: 'www.interior.gov.ng'
     },
     {
-      id: 15,
+      id: 14,
       name: 'Federal Ministry of Justice',
       minister: 'Malam Abubakar Malami',
       minister_state: 'N/A',
@@ -153,7 +153,7 @@ const minList = [
       website: 'www.justice.gov.ng'
     },
     {
-      id: 16,
+      id: 15,
       name: 'Federal Ministry of Labour & Productivity',
       minister: 'Chris Ngige',
       minister_state: 'Tayo Alasodura',
@@ -163,7 +163,7 @@ const minList = [
       website: 'www.labour.gov.ng'
     },
     {
-      id: 17,
+      id: 16,
       name: 'Federal Ministry of Petroleum Resources',
       minister: 'Muhammadu Buhari',
       minister_state: 'Timipre Sylva',
@@ -173,7 +173,7 @@ const minList = [
       website: 'petroleumresources.gov.ng'
     },
     {
-      id: 18,
+      id: 17,
       name: 'Federal Ministry of Power & Steel',
       minister: 'Sale Mamman',
       minister_state: 'Goddy Jedy Agba',
@@ -183,7 +183,7 @@ const minList = [
       website: 'www.pwh.gov.ng'
     },
     {
-      id: 19,
+      id: 18,
       name: 'Federal Ministry of Science & Technology',
       minister: 'Ogbannaya Onu',
       minister_state: 'Mohammed H. Abdullahi',
@@ -193,7 +193,7 @@ const minList = [
       website: 'www.scienceandtech.gov.ng'
     },
     {
-      id: 20,
+      id: 19,
       name: 'Federal Ministry of Mines and Steel Development',
       minister: 'Olamilekan Adegbite',
       minister_state: 'Uchechukwu Ogah',
@@ -203,7 +203,7 @@ const minList = [
       website: 'www.minesandsteel.gov.ng'
     },
     {
-      id: 21,
+      id: 20,
       name: 'Federal Ministry of Special Duties',
       minister: 'George Akume',
       minister_state: 'N/A',
@@ -213,7 +213,7 @@ const minList = [
       website: 'www.sduties.gov.ng'
     },
     {
-      id: 22,
+      id: 21,
       name: 'Federal Ministry of Transport',
       minister: 'Rotimi Amaechi',
       minister_state: 'Gbemisola Saraki',
@@ -223,7 +223,7 @@ const minList = [
       website: 'www.transportation.gov.ng'
     },
     {
-      id: 23,
+      id: 22,
       name: 'Federal Ministry of Water Resources & Rural Development',
       minister: 'Suleiman Adamu',
       minister_state: 'N/A',
@@ -233,7 +233,7 @@ const minList = [
       website: 'www.waterresources.gov.ng'
     },
     {
-      id:24,
+      id:23,
       name: 'Federal Ministry of Women Affairs & Social Development',
       minister: 'Paulen Tallen',
       minister_state: 'N/A',
@@ -243,7 +243,7 @@ const minList = [
       website: 'www.women.gov.ng'
     },
     {
-      id: 25,
+      id: 24,
       name: 'Federal Ministry of Works & Housing',
       minister: 'Babatunde FAshola',
       minister_state: 'Abubakar D. Aliyu',
@@ -253,7 +253,7 @@ const minList = [
       website: 'worksandhousing.gov.ng'
     },
     {
-      id: 26,
+      id: 25,
       name: 'Federal Ministry of Youth & Sports',
       minister: 'Sunday Dare',
       minister_state: 'N/A',
@@ -263,7 +263,7 @@ const minList = [
       website: 'www.youthdevelopment.gov.ng'
     },
     {
-      id: 27,
+      id: 26,
       name: 'Ministry of Niger Delta',
       minister: 'Godswill Akpabio',
       minister_state: 'Festus Keyamo',
@@ -273,7 +273,7 @@ const minList = [
       website: 'www.nigerdelta.gov.ng'
     },
     {
-      id: 28,
+      id: 27,
       name: 'Ministry of Budget & National Planning',
       minister: 'Zainan Ahmed',
       minister_state: 'Clement Agba',
@@ -283,7 +283,7 @@ const minList = [
       website: 'www.nationalplanning.gov.ng'
     },
     {
-      id: 29,
+      id: 28,
       name: 'Ministry of Police Affairs',
       minister: 'Maigari Dingyadi',
       minister_state: 'N/A',
@@ -293,7 +293,7 @@ const minList = [
       website: 'www.police.gov.ng'
     },
     {
-      id: 30,
+      id: 29,
       name: 'Ministry of Humanitarian Affairs & Disaster Management',
       minister: 'Sadiya Umar Faruk',
       minister_state: 'N/A',
