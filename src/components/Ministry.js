@@ -19,12 +19,11 @@ class ministry extends Component{
             list[0].minister = selectedMinister1;
             list[0].origin_state = selectedOrigin2;
             list[0].minister_state = selectedMinister2;
-
-            alert('UPDATED!');
-            console.log(list);
+            this.setState(this.state);
+            //console.log(list);
         })
+        alert('UPDATED!');
     }
-    
 
     render() {
         return (
@@ -39,6 +38,7 @@ class ministry extends Component{
                         minister={min.minister}
                         origin_state={min.origin_state}
                         minister_state={min.minister_state}
+                        handleToUpdate = {this.handleToUpdate.bind(this)}
                    /> 
                 ))}
                 <Update

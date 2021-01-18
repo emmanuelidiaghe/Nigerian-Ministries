@@ -6,6 +6,7 @@ import './FullInfo.css';
 class FullInfo extends Component{
     constructor(props) {
         super(props);
+        //this.handleToUpdate  = this.handleToUpdate.bind(this);
     }
   
     render() {
