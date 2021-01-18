@@ -11,20 +11,25 @@ class ministry extends Component{
     }
     
     handleToUpdate(selectedMin, selectedMinister1, selectedOrigin1, selectedMinister2, selectedOrigin2, selectedAdd, selectedWeb){
-        this.setState(state => {
-            const list = state.minList.filter(mini => mini.id == selectedMin)
-            list[0].address = selectedAdd;
-            list[0].website = selectedWeb;
-            list[0].origin = selectedOrigin1;
-            list[0].minister = selectedMinister1;
-            list[0].origin_state = selectedOrigin2;
-            list[0].minister_state = selectedMinister2;
-            this.setState(this.state);
+        if ((selectedMin === "") || (selectedMinister1 === "") || (selectedOrigin1 === "") || (selectedMinister2 === "") || (selectedOrigin2 === "") || (selectedAdd === "") || (selectedWeb === "")) {
+            alert("All fields are mandatory!");
+            }
+        else {
+            this.setState(state => {
+                const list = state.minList.filter(mini => mini.id == selectedMin);
+                list[0].address = selectedAdd;
+                list[0].website = selectedWeb;
+                list[0].origin = selectedOrigin1;
+                list[0].minister = selectedMinister1;
+                list[0].origin_state = selectedOrigin2;
+                list[0].minister_state = selectedMinister2;
+                this.setState(this.state);
+            })
+            alert('UPDATED!');
             //console.log(list);
-        })
-        alert('UPDATED!');
+        }
     }
-
+    
     render() {
         return (
             <div>
